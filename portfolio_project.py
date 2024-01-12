@@ -14,7 +14,6 @@ if __name__ == '__main__':
             print("\nMENU")
             for key, value in menu_options.items():
                 print("{} - {}".format(key, value))
-            print("\n")
 
             choice = input("Choose an option:\n")
             if choice == "q":

@@ -23,7 +23,7 @@ class ShoppingCart:
     def remove_item(self, item):
         count = 0
         for i in range(len(self.cart_items) - 1):
-            if self.cart_items[i].item_name == item:
+            if self.cart_items[i].item_name == item.item_name:
                 del self.cart_items[i]
                 count += 1
                 break
